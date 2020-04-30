@@ -1,0 +1,31 @@
+@media screen and (max-width: 980px){
+    .logo-info {
+        width:100%;
+        float:none;
+        text-align: center;
+    }
+    .login-info {
+        width:460px;
+        float:none;
+        margin:15px auto;
+    }
+    .login-info form {
+        float:none;
+    }
+    .logo-info img{
+        width: 50%;
+    }
+}
+@media screen and (max-width: 768px){
+    .login-info .email,
+    .login-info .password,
+    .login-info .login {
+       float: none;
+       margin-right:0;
+    }
+    .login-info input[type="text"],
+    .login-info input[type="password"]{
+        width: 100%;
+        box-sizing: border-box;
+    }
+}
